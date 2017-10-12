@@ -1,4 +1,4 @@
-= Spring Boot + Hibernate + H2 In-memory Database
+= Spring Boot + Hibernate + H2 In-memory Database on Java 9
 
 == Run the application
 
