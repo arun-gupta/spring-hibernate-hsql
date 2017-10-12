@@ -1,0 +1,26 @@
+= Spring Boot + Hibernate + H2 In-memory Database
+
+== Run the application
+
+```
+mvn spring-boot:run
+```
+
+== Create employees
+
+```
+curl -X POST -H "Content-Type: text/plain" -d "Leonard" http://localhost:8080
+{"id":"1","status":"success"}
+```
+
+== Get employees
+
+```
+curl http://localhost:8080/1
+```
+
+== Check in HSQLDB
+
+. Connect using http://localhost:8080/console
+. Use JDBC URL `jdbc:h2:mem:app_db`
+. Run the query `SELECT * FROM EMPLOYEE`
