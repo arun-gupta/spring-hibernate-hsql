@@ -2,8 +2,16 @@
 
 == Run the application
 
+. Run the application:
++
 ```
 mvn spring-boot:run
+```
++
+. Package the JAR:
++
+```
+mvn package
 ```
 
 == Create employees
